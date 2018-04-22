@@ -1,0 +1,53 @@
+.title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* .centered {
+  overflow: hidden;
+  border-style: solid;
+  border-width: medium;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  
+}
+input {
+  display: block;
+  width: 100%;
+  height: 30%;
+  
+
+} */
+
+.checkEmpty, .checkFull, .radioOne, .radioTwo{
+    
+  background-image: url('../sprites/form-elements-sprite.png');
+  background-repeat: no-repeat;
+
+}
+
+.checkEmpty {
+  width: 161px;
+	height: 160px;
+  background-position: -158px -239px;
+}
+
+.checkFull {
+  width: 161px;
+	height: 160px;
+  background-position: -381px -239px;
+}
+
+.radioOne {
+  width: 167px;
+	height: 166px;
+  background-position: -582px -242px;
+}
+
+.radioTwo {
+  width: 168px;
+  height: 166px;
+  background-position: -812px -242px;
+}
